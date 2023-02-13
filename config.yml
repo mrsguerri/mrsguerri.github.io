@@ -1,6 +1,6 @@
 baseurl: 'http://example.org/'
 languageCode: en-us
-title: John Doe Resume
+title: Resume
 theme: orbit
 googleAnalytics: UA-XXXXXXX-Y
 disableRSS: true
@@ -12,44 +12,41 @@ params:
   styles: styles-6.css
   profile:
     name: John Doe
-    tagline: Full Stack Developer
-    avatar: profile.png
+    tagline: Software Developer
+    #avatar: profile.png
   contact:
     enable: true
     list:
-      - class: email
-        icon: fa-envelope
-        url: 'mailto: yourname@email.com'
-        title: john.doe@website.com
-      - class: phone
-        icon: fa-phone
-        url: 'tel:+1234567890'
-        title: '+1234567890'
+      # - class: email
+      #   icon: fa-envelope
+      #   url: 'mailto: yourname@email.com'
+      #   title: john.doe@website.com
+      # - class: phone
+      #   icon: fa-phone
+      #   url: 'tel:+1234567890'
+      #   title: '+1234567890'
       - class: website
         icon: fa-globe
         url: //portfoliosite.com
         title: portfoliosite.com
       - class: linkedin
         icon: fa-linkedin
-        url: //linkedin.com/in/johndoe
-        title: linkedin.com/in/johndoe
+        url: //linkedin.com/in/msguerri
+        title: msguerri
       - class: github
         icon: fa-github
-        url: //github.com/username
-        title: github.com/username
-      - class: twitter
-        icon: fa-twitter
-        url: //twitter.com/username
-        title: '@twittername'
+        url: //github.com/mrsguerri
+        title: mrsguerri
+      # - class: twitter
+      #   icon: fa-twitter
+      #   url: //twitter.com/username
+      #   title: '@twittername'
   education:
     enable: true
     title: Education
     list:
-      - degree: MSc in Computer Science
-        college: University of London
-        dates: 2006 - 2010
-      - degree: BSc in Applied Mathematics
-        college: Bristol University
+      - degree: BSc in Computer Science
+        college: California State University, Long Beach
         dates: 2007 - 2011
   language:
     enable: true
@@ -57,27 +54,25 @@ params:
     list:
       - language: English
         level: Native
-      - language: French
-        level: Professional
-      - language: Russian
-        level: Professional
-  interests:
-    enable: true
-    title: Interests
-    list:
-      - interest: Climbing
-      - interest: Snowboarding
-      - interest: Cooking
-  summary:
-    enable: true
-    icon: fa-user
-    title: Career Profile
-    summary: >-
-      **Summarise your career here** lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-      quam felis, ultricies nec, pellentesque eu.
+      - language: Italian
+        level: Native
+  # interests:
+  #   enable: true
+  #   title: Interests
+  #   list:
+  #     - interest: Climbing
+  #     - interest: Snowboarding
+  #     - interest: Cooking
+  # summary:
+  #   enable: true
+  #   icon: fa-user
+  #   title: Career Profile
+  #   summary: >-
+  #     **Summarise your career here** lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  #     Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+  #     penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+  #     quam felis, ultricies nec, pellentesque eu.
   experiences:
     enable: true
     icon: fa-briefcase
@@ -154,9 +149,5 @@ params:
         level: 95%
       - skill: HTML5 & CSS
         level: 95%
-      - skill: Ruby on Rails
-        level: 75%
-      - skill: Sketch & Photoshop
-        level: 60%
   footer:
-    copyright: ''
+    copyright: 'Matt Sguerri'
