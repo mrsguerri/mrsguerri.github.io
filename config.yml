@@ -11,7 +11,7 @@ params:
   author: Pavel Kanyshev
   styles: styles-6.css
   profile:
-    name: John Doe
+    name: Matt Sguerri
     tagline: Software Developer
     #avatar: profile.png
   contact:
