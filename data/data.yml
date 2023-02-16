@@ -1,24 +1,24 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: 
+  title: Senior Software Engineer
   avatar:
-    display: true
+    display: false
     path: profile.png
 
 contact:
   location:
-  email: me@example.com
+  email: 
   phone: +86-111-2222-3333
   website: example.com
   wechat:
   whatsapp:
   telegram:
-  github: github
+  github: #mrsguerri
   gitlab:
   bitbucket:
   googlescholar:
   researchgate:
-  linkedin:
+  linkedin: msguerri
   medium:
   twitter: twitter
   stackoverflow:
@@ -26,7 +26,7 @@ contact:
   goodreads:
 
 profile:
-  display: true
+  display: false
   title: Profile
   details: |
     It's your career profile, you can wirte markdown format text.
@@ -167,10 +167,10 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
-      level: Native
     - idiom: English
-      level: Professional
+      level: Native
+    - idiom: Italian
+      level: Native
 
 interests:
   display: true
@@ -192,7 +192,7 @@ evaluation:
     ...
 
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
