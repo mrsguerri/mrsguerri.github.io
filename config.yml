@@ -4,7 +4,7 @@ enableRobotsTXT: true
 languageCode: en
 
 title: Resume
-theme: online-resume
+theme: test
 
 params:
   open: true                # open or close your site
@@ -14,3 +14,7 @@ params:
   analytics:
     google:                 # your google analytics
     cloudflare:             # your cloudflare analytics
+  experience:
+    enable: true
+  skills:
+    enable: true
