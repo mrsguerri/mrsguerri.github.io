@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+<body> 
+  <div class="main">
+    {{ if .Site.Params.contact.enable }}
+      {{ partial "contact.html" . }}
+    {{end}}
+
+    {{ if .Site.Params.skills.enable }}
+      {{ partial "skills.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.experience.enable }}
+      {{ partial "experience.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.projects.enable }}
+      {{ partial "projects.html" . }}
+    {{end}}
+  </div>
+
+  {{ partial "footer.html" .}}
+
+</body> 
+</html> 
