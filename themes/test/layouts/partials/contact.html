@@ -1,0 +1,8 @@
+{{ $contact := .contact }}
+<ul class="list-unstyled">
+    {{ if $contact.phone }}
+        <li class="phone"><i class="fa-solid fa-location-dot"></i>
+            <span>{{ $contact.phone }}</span>
+        </li>
+    {{ end }}
+</ul>

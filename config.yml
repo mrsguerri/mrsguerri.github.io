@@ -18,3 +18,7 @@ params:
     enable: true
   skills:
     enable: true
+  contact:
+    enable: true
+  education:
+    enable: true
